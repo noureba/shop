@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+}
+
+.subscribeForm {
+  padding-top: 10px;
+}
+.subscribeForm input:nth-child(1) {
+  max-width: 400px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+}
+.subscribeForm input:nth-child(2) {
+  max-width: 100px;
+  height: 40px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.mySwiper {
+  max-width: 1300px;
+  color: white;
+}
+
+.paginate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+}
+.paginate .itemPaginate, .paginate .nextPaginate, .paginate .previousPaginate {
+  background-color: #0044ff;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  border: 1px solid silver;
+}
+.paginate .itemPaginate:hover, .paginate .previousPaginate:hover, .paginate .nextPaginate:hover, .paginate .activePaginate {
+  background-color: white;
+  padding: 10px;
+  color: #0044ff;
+  font-size: 20px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+.contactForm input, .contactForm textarea {
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: 40px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+/*# sourceMappingURL=globals.css.map */
